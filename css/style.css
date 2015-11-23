@@ -1,0 +1,54 @@
+.wrap {
+  min-width: 500px;
+  width: 80% ;
+  background-color: brown;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+.content  {
+
+  width: 80%;
+  background-color: red;
+  float: left;
+}
+
+aside {
+  width: 20%;
+  background-color: grey;
+  float: left;
+}
+
+aside ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.content,aside{
+  height: 80%;
+}
+
+
+
+#num1 li  {
+
+  display:inline;
+
+}
+
+#num1 li a{
+  text-decoration:none;
+  color: black;
+  padding-right: 20px;
+}
+
+#num1 li a:hover {
+text-decoration:underline;
+color: white;
+padding-right: 20px;
+}
+
+form li {
+  list-style: none;
+}
